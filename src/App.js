@@ -2,10 +2,10 @@ import React from "react";
 //Styles
 import GlobalStyle from "./GlobalStyle";
 //Components
-import Nav from "./Components/Nav";
-import SignIn from "./Pages/SignIn";
+// import Nav from "./Components/Nav";
+// import SignIn from "./Pages/SignIn";
 import SignIn2 from "./Pages/SignIn2";
-import SignUp from "./Pages/SignUp";
+// import SignUp from "./Pages/SignUp";
 import SignUp2 from "./Pages/SignUp2";
 import Home from "./Pages/Home";
 //Routing

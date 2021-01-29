@@ -1,11 +1,11 @@
 import React, { useEffect } from "react";
 //uuid
-import { v4 as uuidv4 } from "uuid";
+// import { v4 as uuidv4 } from "uuid";
 //Components
 import Nav from "../Components/Nav";
 import CreatePost from "../Components/CreatePost";
 import PostList from "../Components/PostList";
-import EditPost from "../Components/EditPost";
+// import EditPost from "../Components/EditPost";
 //Styles
 import styled from "styled-components";
 //Dispatch

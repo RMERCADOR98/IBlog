@@ -2,7 +2,7 @@ import React, { useState } from "react";
 //Styled
 import styled from "styled-components";
 //uuid
-import { v4 as uuidv4 } from "uuid";
+// import { v4 as uuidv4 } from "uuid";
 //icons
 import { Send } from "@styled-icons/ionicons-solid/Send";
 //react-redux
