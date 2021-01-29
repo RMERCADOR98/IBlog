@@ -20,11 +20,15 @@ const Home = () => {
   //Buscar os Posts
   const stateAllPosts = useSelector((state) => state.posts.allPosts);
 
-  const fetchApi = () => {
-    dispatch(findAllPosts());
-  };
+  // const fetchApi = () => {
+  //   dispatch(findAllPosts());
+  // };
 
-  useEffect(() => fetchApi(), []);
+  useEffect(() => {
+    (() => {
+      dispatch(findAllPosts());
+    })();
+  }, []);
 
   return (
     <div>
