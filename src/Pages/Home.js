@@ -20,15 +20,12 @@ const Home = () => {
   //Buscar os Posts
   const stateAllPosts = useSelector((state) => state.posts.allPosts);
 
-  // const fetchApi = () => {
-  //   dispatch(findAllPosts());
-  // };
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  const fetchApi = () => {
+    dispatch(findAllPosts());
+  };
 
-  useEffect(() => {
-    (() => {
-      dispatch(findAllPosts());
-    })();
-  }, []);
+  useEffect(() => fetchApi(), [fetchApi]);
 
   return (
     <div>
