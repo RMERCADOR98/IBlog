@@ -25,7 +25,7 @@ const Home = () => {
     dispatch(findAllPosts());
   };
 
-  useEffect(() => fetchApi(), [fetchApi, stateAllPosts]);
+  useEffect(() => fetchApi(), [stateAllPosts, fetchApi]);
 
   return (
     <div>
