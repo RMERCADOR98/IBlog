@@ -25,7 +25,8 @@ const Home = () => {
     dispatch(findAllPosts());
   };
 
-  useEffect(() => fetchApi(), [stateAllPosts, fetchApi]);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  useEffect(() => fetchApi(), []);
 
   return (
     <div>
