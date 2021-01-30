@@ -5,9 +5,9 @@ import styled from "styled-components";
 import { Heart as HeartFill } from "@styled-icons/fa-solid/Heart";
 import { Heart } from "@styled-icons/fa-regular/Heart";
 import { DeleteOutline } from "@styled-icons/material/DeleteOutline";
-import { Delete } from "@styled-icons/material/Delete";
+// import { Delete } from "@styled-icons/material/Delete";
 import { EditOutline } from "@styled-icons/evaicons-outline/EditOutline";
-import { Edit } from "@styled-icons/evaicons-solid/Edit";
+// import { Edit } from "@styled-icons/evaicons-solid/Edit";
 //Components
 import EditPost from "./EditPost";
 //Dispatch
@@ -143,17 +143,6 @@ const StyledDeletedOutline = styled(DeleteOutline)`
     color: #f07272;
   }
 `;
-const StyledDeleted = styled(Delete)`
-  height: 1.4rem;
-  cursor: pointer;
-  transition: 0.3s;
-  transform: scale(1);
-  color: #f07272;
-  &:hover {
-    transition: 0.3;
-    transform: scale(1.1);
-  }
-`;
 
 const StyledEditOutlined = styled(EditOutline)`
   height: 1.4rem;
@@ -164,18 +153,6 @@ const StyledEditOutlined = styled(EditOutline)`
     transition: 0.3s;
     transform: scale(1.1);
     color: #f3e074;
-  }
-`;
-
-const StyledEdit = styled(Edit)`
-  height: 1.4rem;
-  cursor: pointer;
-  transition: 0.3s;
-  transform: scale(1);
-  color: #f07272;
-  &:hover {
-    transition: 0.3;
-    transform: scale(1.1);
   }
 `;
 
