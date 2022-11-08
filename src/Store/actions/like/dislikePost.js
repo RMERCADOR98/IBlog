@@ -12,7 +12,7 @@ const dislikePost = (post) => async (dispatch, getState) => {
     likes: post.likes - 1,
   };
 
-  const base_url = `https://iblog-api.herokuapp.com/api/v1/likes/dislike/${postData.id}`;
+  const base_url = `https://iblogapi-production.up.railway.app/api/v1/likes/dislike/${postData.id}`;
 
   await axios
     .patch(

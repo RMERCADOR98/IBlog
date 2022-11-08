@@ -2,7 +2,7 @@
 
 // const findOwnedPosts = () => async (dispatch, getState) => {
 //   const stateToken = getState().auth.token;
-//   const base_url = "http://localhost:3002/api/v1/posts/find";
+//   const base_url = "https://iblogapi-production.up.railway.app/api/v1/posts/find";
 
 //   await axios
 //     .get(base_url, {

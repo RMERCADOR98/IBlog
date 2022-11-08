@@ -2,7 +2,7 @@ import axios from "axios";
 
 const deletePosts = (id) => async (dispatch, getState) => {
   const stateToken = getState().auth.token;
-  const base_url = `https://iblog-api.herokuapp.com/api/v1/posts/${id}`;
+  const base_url = `https://iblogapi-production.up.railway.app/api/v1/posts/${id}`;
 
   console.log(id);
 

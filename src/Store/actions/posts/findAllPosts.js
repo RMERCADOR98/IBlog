@@ -2,7 +2,8 @@ import axios from "axios";
 
 const findAllPosts = () => async (dispatch, getState) => {
   const stateToken = getState().auth.token;
-  const base_url = "https://iblog-api.herokuapp.com/api/v1/posts/find";
+  const base_url =
+    "https://iblogapi-production.up.railway.app/api/v1/posts/find";
 
   if (stateToken === "") {
     await axios
